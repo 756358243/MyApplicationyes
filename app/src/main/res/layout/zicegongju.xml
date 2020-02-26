@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijintu">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5.0sp"
+        android:layout_marginLeft="5.0sp"
+        android:layout_marginRight="5.0sp"
+        >
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/aisuanguabazihehun"
+        android:layout_height="100dp"
+        android:text="八字合婚"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/aisuanguabzyinyuan"
+        android:text="八字姻缘"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/aisuanguacaiwuxiangpi"
+        android:layout_height="100dp"
+        android:text="八字详批"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/aisuanguataohuacesuan"
+        android:layout_height="100dp"
+        android:text="桃花测算"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/aisuanguayuanfenpipei"
+        android:layout_height="100dp"
+        android:text="缘分匹配"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/aisuangua2019yunshi"
+        android:layout_height="100dp"
+        android:text="2019年运势"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/aisuanguaxingmingceshi"
+        android:layout_height="100dp"
+        android:text="姓名测试"
+        />
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="每日财运"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="称骨算命"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="生命灵数"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="每日财运"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="星座配对"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="血型配对"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="QQ号码"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="眼跳吉凶"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="观音灵签"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="身份证号码"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="生肖算命"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="生日配对"
+        />-->
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

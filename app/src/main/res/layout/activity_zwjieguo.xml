@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijintu"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:background="#f2f2f2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/ziweisi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:background="#f2f2f2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweiwu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:alpha="0.5"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweiwei"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:background="#f2f2f2"
+            android:alpha="0.5"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweishen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+        </LinearLayout>
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- 第二行菜单    用margin来调整间隔还是不科学 -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:alpha="0.5"
+            android:gravity="center_horizontal"
+            android:tag="testtag"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweichen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="21"
+            android:alpha="0.5"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweibazi"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:alpha="0.5"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:gravity="center_horizontal"
+            android:tag="testtag"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweiyou"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:alpha="0.5"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:gravity="center_horizontal"
+            android:id="@+id/manualaddoil"
+            android:tag="testtag"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweimao"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="21"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:alpha="0.5"
+            android:gravity="center_horizontal"
+            android:id="@+id/manuallossreport"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweibazijieshao"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="1dp"
+                />
+
+        </LinearLayout>
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:background="#f2f2f2"
+            android:gravity="center_horizontal"
+            android:tag="testtag"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweixu"
+                android:layout_width="80dp"
+                android:textColor="@color/black"
+                android:layout_height="80dp"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:alpha="0.5"
+            android:id="@+id/more_oilreports"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweiyin"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:alpha="0.5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweichou"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:alpha="0.5"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:id="@+id/linestatisticsManager"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweizi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:background="#f2f2f2"
+            android:alpha="0.5"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/moreexcetionalarm"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ziweihai"
+                android:layout_width="80dp"
+                android:textColor="@color/black"
+                android:layout_height="80dp"
+                android:layout_marginTop="6dp"
+                android:text="油量数据报表"
+                android:layout_marginBottom="3dp"
+                />
+        </LinearLayout>
+
+        <!-- 权重布局   充当间隔  自适应所有屏幕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            >
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

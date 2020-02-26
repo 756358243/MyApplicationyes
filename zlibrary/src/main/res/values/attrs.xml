@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color|reference" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HeadLayoutView">
+
+        <attr name="left_text" format="string"></attr>
+        <attr name="left_res" format="integer"></attr>
+        <attr name="middle_text" format="string"></attr>
+        <attr name="middle_res" format="integer"></attr>
+        <attr name="right_text" format="string"></attr>
+        <attr name="right_res" format="integer"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="TextAndEditLayoutView">
+        <attr name="view_et_tv" format="string"></attr>
+        <attr name="view_et_enable" format="boolean"></attr>
+    </declare-styleable>
+
+
+</resources>

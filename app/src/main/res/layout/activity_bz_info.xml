@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijintu"
+    android:orientation="vertical">
+
+    <com.vkeline.zlibrary.view.HeadLayoutView
+        android:id="@+id/xinggefenxi_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:middle_text="八字排盘"
+        ></com.vkeline.zlibrary.view.HeadLayoutView>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名 :"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+           />
+
+        <EditText
+            android:id="@+id/xingming"
+            android:layout_width="0dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="@string/prompt_account"
+            android:text="某人"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="性别 :"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+
+        <RadioGroup
+            android:id="@+id/xingbie"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:id="@+id/nan"
+                android:text="男"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                />
+            <RadioButton
+                android:id="@+id/nv"
+                android:text="女"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="阳历/阴历 :"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+
+        <RadioGroup
+            android:id="@+id/yangyingli"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:id="@+id/yangli"
+                android:text="阳历"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                />
+            <RadioButton
+                android:id="@+id/yingli"
+                android:text="阴历"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/runyueyingcang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="润月:"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+
+        <RadioGroup
+            android:id="@+id/shifourunyue"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:id="@+id/runyue"
+                android:text="是"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <RadioButton
+                android:id="@+id/feirunyue"
+                android:text="否"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="出生日期 :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/riqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:onClick="shururiqi"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="2018-01-01 00:00:00"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="出生地区 :"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/diqu"
+            android:onClick="address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:focusable="false"
+            android:text="江西萍乡"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="kaishijisuan"
+            android:textSize="20sp"
+            android:text="开始计算"
+            />
+
+    </LinearLayout>
+        
+        <!--<EditText
+            android:id="@+id/nianfen"
+            android:layout_width="0dp"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:hint="@string/prompt_account"
+            android:text="某人"
+            android:maxLines="1"
+            android:singleLine="true" />-->
+
+
+
+
+</LinearLayout>

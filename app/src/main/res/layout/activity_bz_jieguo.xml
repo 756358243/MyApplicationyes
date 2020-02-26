@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijintu"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5.0sp"
+        android:layout_marginRight="5.0sp"
+        android:layout_marginTop="5.0sp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#ff000000"
+        android:text="姓名："
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#ff000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="张三"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5.0sp"
+        android:layout_marginRight="5.0sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#ff000000"
+            android:text="出生地点："
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#ff000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="江西萍乡"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="5.0sp"
+        android:layout_marginRight="5.0sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="农历："
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/chushengonglishijian"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#ff000000"
+            android:text="甲戌年十一月十二日【甲戌年丙子月甲戌日】"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5.0sp"
+        android:layout_marginRight="5.0sp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="节气："
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/jieqi"
+            android:layout_width="wrap_content"
+            android:textColor="#ff000000"
+            android:layout_height="40dp"
+            android:text="2018-02-28 09:31:10"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginLeft="5.0sp"
+        android:layout_marginRight="5.0sp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:text="起大运周岁："
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/qidayun"
+            android:layout_width="wrap_content"
+            android:textColor="#ff000000"
+            android:layout_height="28dp"
+            android:textStyle="bold"
+            android:text="5岁 4个月"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0sp"
+            android:layout_marginRight="5.0sp"
+            android:stretchColumns="1" >
+
+
+            <!--TableRow 表示行，每行里面就可以 通过其他View来实现我们想要的方格-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:text=""
+                    android:textColor="#ff000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/delivercompanyname"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text="年柱"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:text="月柱"
+                    android:textColor="#ff000000"
+                    />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:textStyle="bold"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text="日柱"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff0000" />
+
+                <TextView
+                    android:id="@+id/repairtime"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text="时柱"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text="空亡"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                    android:text=""
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nianTianganshishen"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/yueTianganshishen"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                     />
+
+                <TextView
+                    android:id="@+id/riTianganshishen"
+                    android:textStyle="bold"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff0000" />
+
+                <TextView
+                    android:id="@+id/shiTianganshishen"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text=""
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/qiankun"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                    android:text="坤造"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/niangan"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:ellipsize="marquee"
+                    android:text="甲"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/yuegan"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                    android:text="丙"
+                     />
+
+                <TextView
+                    android:id="@+id/rigan"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:text="甲"
+                    android:textColor="#ff0000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/shigan"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:text="丁"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/rikun"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text="（日）申酉"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold"
+                    android:text="（地势）"
+                    />
+
+                <TextView
+                    android:id="@+id/nianzhi"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:text="戌"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/yuezhi"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                    android:text="子"
+                     />
+
+                <TextView
+                    android:id="@+id/rizhi"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="戌"
+                    android:textColor="#ff0000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/shizhi"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text="卯"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/shikun"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text="（时）寅卯"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:text="藏干"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nianDicangan"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/yueDizhicangan"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/riDizhicangan"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+                <TextView
+                    android:id="@+id/shiDizhicangan"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text=""
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:text="十神"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nianDizhishishen"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/yueDizhishishen"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/riDizhishishen"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+                <TextView
+                    android:id="@+id/shiDizhishishen"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text=""
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 >
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:text="纳音"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/niangannayin"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/yuegannayin"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:padding="6.0dip"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rigannayin"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/shigannayin"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:text=""
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="#ff000000" />
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0sp"
+        android:layout_marginLeft="5.0sp"
+        android:layout_marginRight="5.0sp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大运："
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="4"
+            />
+
+    </LinearLayout>
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/biaoti"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:textSize="30sp"
+        android:text="sizhubazi:"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="60dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:id="@+id/sizhubazi"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:text="计算结果："
+        />-->
+
+
+  </LinearLayout>
+

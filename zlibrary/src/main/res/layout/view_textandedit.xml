@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/auto_view_tv"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:text="IP" />
+
+    <EditText
+        android:id="@+id/auto_view_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_white_bg"
+        android:digits="0123456789."
+        android:hint="请输入数据"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/auto_view_right_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_white_bg"
+        android:padding="13dp"
+        android:text="@string/tip"
+        android:textColor="@color/black66"
+        android:visibility="gone" />
+
+
+</LinearLayout>

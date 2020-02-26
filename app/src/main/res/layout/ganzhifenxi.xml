@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijintu">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_marginTop="5.0sp"
+       android:layout_marginLeft="5.0sp"
+       android:layout_marginRight="5.0sp"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:text="简单说明："
+               android:textSize="20sp"
+               android:textStyle="bold"
+               />
+           <TextView
+               android:id="@+id/jibenshuoming"
+               android:layout_width="wrap_content"
+               android:layout_height="60dp"
+               android:textColor="@color/black"
+               android:text=""
+               android:textSize="14sp"
+               android:textStyle="bold"
+               />
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/red"
+               android:text="年柱："
+               android:textSize="18sp"
+               android:textStyle="bold"
+               />
+           <TextView
+               android:id="@+id/nianganzhifenxi"
+               android:layout_width="wrap_content"
+               android:layout_height="140dp"
+               android:textSize="14sp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               />
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/red"
+               android:text="月柱："
+               android:textSize="18sp"
+               android:textStyle="bold"
+               />
+           <TextView
+               android:id="@+id/yueganzhifenxi"
+               android:layout_width="match_parent"
+               android:layout_height="140dp"
+               android:textSize="14sp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/red"
+               android:text="日柱："
+               android:textSize="18sp"
+               android:textStyle="bold"
+               />
+           <TextView
+               android:id="@+id/riganzhifenxi"
+               android:layout_width="match_parent"
+               android:layout_height="140dp"
+               android:textSize="14sp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/red"
+               android:text="时柱："
+               android:textSize="18sp"
+               android:textStyle="bold"
+               />
+           <TextView
+               android:id="@+id/shiganzhifenxi"
+               android:layout_width="match_parent"
+               android:layout_height="140dp"
+               android:textSize="14sp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

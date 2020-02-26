@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijintu"
+    android:orientation="vertical"
+    android:id="@+id/xianshi"
+    >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5.0sp"
+            android:layout_marginRight="5.0sp"
+            android:layout_marginTop="5.0sp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/xingge"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="xinggefenxi"
+                android:background="@mipmap/xinggefenxi"
+                android:textColor="@color/red"
+                android:alpha="0.8"
+                android:text="性格分析" />
+
+            <Button
+                android:id="@+id/shiye"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="shiyefenxi"
+                android:background="@mipmap/shiyefenxi"
+                android:textColor="@color/red"
+                android:alpha="0.8"
+                android:text="事业分析" />
+
+            <Button
+                android:id="@+id/bzmingyun"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="bazimingyun"
+                android:background="@mipmap/bazimingyun"
+                android:textColor="@color/red"
+                android:alpha="0.8"
+                android:text="八字命运" />
+
+
+            <Button
+                android:id="@+id/caiyun"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="caiyunfenxi"
+                android:background="@mipmap/caiyunfenxi"
+                android:textColor="@color/red"
+                android:alpha="0.8"
+                android:text="财运分析" />
+
+            <Button
+                android:id="@+id/hunlian"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="hunlianfenxi"
+                android:background="@mipmap/hunlianfenxi"
+                android:textColor="@color/red"
+                android:alpha="0.8"
+                android:text="婚恋分析" />
+
+            <Button
+                android:id="@+id/jiankan"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="jiankanfenxi"
+                android:background="@mipmap/jiankanfenxi"
+                android:textColor="@color/red"
+                android:alpha="0.8"
+                android:text="健康分析" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

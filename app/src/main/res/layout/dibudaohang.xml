@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/yemianqiehuan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </FrameLayout>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:alpha="0.6"
+        android:background="@android:color/darker_gray"
+        />
+    <RadioGroup
+        android:id="@+id/daohangzu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@mipmap/dibudaohang"
+        >
+        <RadioButton
+            android:id="@+id/jibenxinxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基本命盘"
+            android:drawableTop="@drawable/jbxx"
+            style="@style/RadioGroupButtonStyle"
+            />
+        <RadioButton
+            android:id="@+id/ganzhifenxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="干支分析"
+            android:drawableTop="@drawable/shezhi"
+            style="@style/RadioGroupButtonStyle"
+            />
+        <RadioButton
+            android:id="@+id/xiangximingpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="命盘分析"
+            android:drawableTop="@drawable/xiangqing"
+            style="@style/RadioGroupButtonStyle"
+            />
+        <!--
+                    android:text="基本命盘"
+                    android:text="干支分析"
+                    android:text="详细命盘"
+                    android:text="自测工具"
+                    android:text="关于我们"
+
+        -->
+        <RadioButton
+            android:id="@+id/zicegongju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自测工具"
+            android:drawableTop="@drawable/qtgj"
+            style="@style/RadioGroupButtonStyle"
+            />
+        <RadioButton
+            android:id="@+id/guanyuwomen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="爱算卦网"
+            android:drawableTop="@drawable/gywm"
+            style="@style/RadioGroupButtonStyle"
+            />
+    </RadioGroup>
+
+</LinearLayout>
